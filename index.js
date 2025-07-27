@@ -7,7 +7,7 @@ const express = require('express')
 const app = express()
 
 //creating a port
-const port = process.env.port
+const port = 5000
 
 //creating a route
 app.get('/', (req, res) => {
